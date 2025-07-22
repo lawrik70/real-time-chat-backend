@@ -26,3 +26,5 @@ FastAPI backend for a real-time chat application with WebSocket support.
     source venv/bin/activate  # Linux/Mac
     venv\Scripts\activate     # Windows
     pip install -r requirements.txt
+3. Run server:
+   uvicorn main:app --reload
