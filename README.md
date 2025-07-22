@@ -20,4 +20,9 @@ FastAPI backend for a real-time chat application with WebSocket support.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/real-time-chat.git
-   cd real-time-chat-backend
+   cd real-time-chat/backend
+2. Create and activate virtual environment:
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    venv\Scripts\activate     # Windows
+    pip install -r requirements.txt
